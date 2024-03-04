@@ -1,0 +1,127 @@
+[
+    {
+        "blockName": "Application",
+        "icon": "bi bi-person-rolodex",
+        "elements": [
+            {
+                "label": "Contact",
+                "icon": "bi bi-person-lines-fill",
+                "active": true,
+                "children": [
+                    {
+                      "label": "Créer",
+                      "active": false,
+                      "url": "/dashboard/contacts/create"
+                    },
+                    {
+                      "label": "Liste",
+                      "active": false,
+                      "url": "/dashboard/contacts/list"
+                    },
+                    {
+                        "label": "Segments",
+                        "active": false,
+                      "url": "/dashboard/contacts/segments"
+                      }
+                ]
+            },
+            {
+                "label": "Formulaires",
+                "icon": "bi bi-file-earmark-break-fill",
+                "active": false,
+                "children": [
+                    {
+                      "label": "Créer",
+                      "active": false,
+                      "url": "/dashboard/forms/create"
+                    },
+                    {
+                      "label": "Liste",
+                      "active": false,
+                      "url": "/dashboard/forms/list"
+                    }
+                ]
+            },
+            {
+                "label": "Pages",
+                "icon": "bi bi-grid-1x2-fill",
+                "active": false,
+                "children": [
+                    {
+                      "label": "Créer",
+                      "active": false,
+                      "url": "/dashboard/pages/create"
+                    },
+                    {
+                      "label": "Liste",
+                      "active": false,
+                      "url": "/dashboard/pages/list"
+                    }
+                ]
+            },
+            {
+                "label": "Email",
+                "icon": "bi bi-envelope-at-fill",
+                "active": false,
+                "children": [
+                    {
+                      "label": "Créer",
+                      "active": false,
+                      "url": "/dashboard/emails/create"
+                    },
+                    {
+                      "label": "Liste",
+                      "active": false,
+                      "url": "/dashboard/emails/list"
+                    },
+                    {
+                        "label": "Modèles",
+                        "active": false,
+                        "url": "/dashboard/emails/models"
+                    }
+                ]
+            },
+            {
+                "label": "Tunnel de vente",
+                "icon": "bi bi-wallet-fill",
+                "active": false,
+                "children": [
+                    {
+                        "label": "Créer",
+                        "active": false,
+                        "url": "/dashboard/channels/create"
+                    },
+                    {
+                        "label": "Liste",
+                        "active": false,
+                        "url": "/dashboard/channels/list"
+                    }
+                ]
+            },
+            {
+                "label": "Documents",
+                "icon": "bi bi-file-earmark-zip-fill",
+                "active": false,
+                "url": "/dashboard/documents"
+            },
+            {
+                "label": "Paramètres",
+                "icon": "bi bi-gear-wide-connected",
+                "active": false,
+                "children": [
+                    {
+                        "label": "Compte",
+                        "active": false,
+                        "url": "/dashboard/settings/account"
+                    },
+                    {
+                        "label": "Facturation",
+                        "active": false,
+                        "url": "/dashboard/settings/invoice"
+                    }
+                ]
+            }
+        ]
+    }
+]
+  
